@@ -1,0 +1,6 @@
+python split_csv.py csv/events/events.csv csv/events/events_split_ 5000000
+
+python split_csv.py csv/clicks_train/clicks_train.csv csv/clicks_train/clicks_train_split_ 10000000
+
+python split_csv.py csv/page_views_sample/page_views_sample.csv csv/page_views_sample/page_views_sample_split_ 5
+000000
