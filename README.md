@@ -20,6 +20,15 @@ We will first have a look from which geographical location website visitors were
 
 (Data in the events file: a running number; display id (context, i.e. a set of recommendations); user id; document id (the website visited); timestamp (seconds passed since Tuesday, 14. June 2016); ... and geographical location)
 
-It helps to visualize the geographical location of website visitors on a map. For creating the map shown here, random numbers were added to the marker coordinates to scatter markers a little and thus increase expressiveness of this visualization. This method does not really harm accuracy here, as merely the country codes were taken for obtaining geo coordinates anyway.
+It helps to visualize the geographical location of website visitors on a map. For creating the map shown here, random numbers were added to the marker coordinates to scatter markers a little and thus increase expressiveness of this visualization. This method does not really harm accuracy here, as merely the country codes were taken for obtaining geo coordinates anyway. However, it has to be admitted that it would be way more helpful to have data at hand with more exact location information. At least the map shown reveals that most of the users in the dataset were based in the United States.
+
+The map shown below has been created with the Python file "plot_map.py" from this repository; downloading this file to a directory and executing the command "python plot_map.py" in a command terminal in the same directory provides further usage information on how to create such a map with your own data.
 
 ![alt text](screenshots/s002_world_clicks.png "")
+
+### Merging two tables when information in a second table augments that in the first
+
+Sometimes it is useful to write additional information to a table. In our example, we have the tables "events.csv" and "clicks_train.csv", with the following contents:
+
+
+
