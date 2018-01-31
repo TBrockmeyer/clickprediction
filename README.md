@@ -16,6 +16,8 @@ In order to execute code provided in this repository, you need Python 3 installe
 
 We will first have a look from which geographical location website visitors were active, because this helps us to have a first glimpse on these users' profiles and possible implications for their ad clicking behaviour.
 
+To show data from a csv in your command terminal as shown in the picture below, download the Python file "explore_csv_range.py" to a directory on your machine, then execute the command "python explore_csv_range.py" in a command terminal in the same directory for further usage information.
+
 ![alt text](screenshots/s001_events_csv.png "Data in the events file: display id (context, i.e. a set of recommendations), user id, document id (the website visited), timestamp (seconds passed since Tuesday, 14. June 2016), ... and geographical location" )
 
 (Data in the events file: a running number; display id (context, i.e. a set of recommendations); user id; document id (the website visited); timestamp (seconds passed since Tuesday, 14. June 2016); ... and geographical location)
