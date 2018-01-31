@@ -1,6 +1,6 @@
 # clickprediction
 
-The aim of this project is to predict whether website visitors will click on ads shown to them on a page they are currently viewing.
+The ultimate aim of this project is to predict whether website visitors will click on ads shown to them on a page they are currently viewing.
 As a first step, the project components provide guidelines on how a large dataset on website visitors' ad-clicking behaviour may be analyzed.
 Information provided by the explored dataset includes 
 * the log of users visiting documents: exact date and time, platform (desktop, mobile, tablet), geographical location, traffic source (internal, search, social)
@@ -31,6 +31,9 @@ The map shown below has been created with the Python file "plot_map.py" from thi
 ### Merging two tables when information in a second table augments that in the first
 
 Sometimes it is useful to write additional information to a table. In our example, we have the tables "events.csv" and "clicks_train.csv", with the following contents:
+
+![alt text](screenshots/s003_events_csv_rows_0_to_10.png "")
+
 
 
 
