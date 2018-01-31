@@ -53,4 +53,4 @@ python csv_from_merged_dfs.py csv/events/events.csv csv/clicks_train/clicks_trai
 
 ![alt text](screenshots/s005_events_clicks_merged_display_id_csv_rows_0_to_10.png "")
 
-
+### Create descriptive statistics to tell at which times of the day users are more likely to click on ads
