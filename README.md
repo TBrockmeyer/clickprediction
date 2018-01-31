@@ -32,8 +32,13 @@ The map shown below has been created with the Python file "plot_map.py" from thi
 
 Sometimes it is useful to write additional information to a table. In our example, we have the tables "events.csv" and "clicks_train.csv", with the following contents:
 
+"events.csv", rows 0 to 10: 
+
 ![alt text](screenshots/s003_events_csv_rows_0_to_10.png "")
 
+"clicks_train.csv", rows 0 to 10: 
+
+![alt text](screenshots/s004_clicks_train_csv_rows_0_to_10.png "")
 
 
 
