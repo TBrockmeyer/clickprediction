@@ -18,6 +18,6 @@ We will first have a look from which geographical location website visitors were
 ![alt text](screenshots/s001_events_csv.png "Data in the events file: display id (context, i.e. a set of recommendations), user id, document id (the website visited), timestamp (seconds passed since Tuesday, 14. June 2016), ... and geographical location" )
 (Data in the events file: a running number; display id (context, i.e. a set of recommendations); user id; document id (the website visited); timestamp (seconds passed since Tuesday, 14. June 2016); ... and geographical location)
 
-It helps to visualize the geographical location. In the map shown here, random numbers were added to the marker coordinates to scatter markers a little and thus increase expressiveness of this visualization. This method does not really harm accuracy here, as merely the country codes were taken for obtaining geo coordinates anyway.
+It helps to visualize the geographical location of website visitors on a map. For creating the map shown here, random numbers were added to the marker coordinates to scatter markers a little and thus increase expressiveness of this visualization. This method does not really harm accuracy here, as merely the country codes were taken for obtaining geo coordinates anyway.
 
 ![alt text](screenshots/s002_world_clicks.png "")
